@@ -1,0 +1,14 @@
+.Circle{
+    height: 20vw;
+    width: 20vw;
+    background-color: rgb(231, 231, 32);
+    border-radius: 100%;
+}
+.BackgroundSquare{
+    height: 25vw;
+    width: 25vw;
+    background-color: rgb(231, 32, 32);
+    border-radius: 20px ;
+    z-index: -1;
+    top: 0;
+}

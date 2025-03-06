@@ -1,4 +1,4 @@
-function App() {
+export default function OrderingMenu() {
     return (
       <>
       <h>Get good!</h>
@@ -6,5 +6,5 @@ function App() {
     )
   }
   
-  export default App
+
   

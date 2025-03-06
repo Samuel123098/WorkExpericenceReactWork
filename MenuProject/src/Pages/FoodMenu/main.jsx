@@ -1,9 +1,10 @@
-function App() {
+export default function FoodMenu() {
     return (
       <>
+        <h>Hello</h>
       </>
     )
   }
   
-  export default App
+
   

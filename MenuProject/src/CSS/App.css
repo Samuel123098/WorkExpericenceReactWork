@@ -1,28 +1,2 @@
-h1 {
-    color: red;
-    font-size: 50px;
-}
-/* Makes the background color and middle box */
-.parent {
-    padding-bottom: 100px;
-    height: calc(143vw*3.3375);
-}
-.SecondaryBackGround { 
-    position: absolute;
-    margin-top: 5vw;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90vw;
-    height: calc(140vw*3.3375);
-}
-/*Styling the box*/
-.parent{
-    background-color: #D8B9A0;
-}
-.SecondaryBackGround{
-    background-color: #f4f4f4;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    opacity: 20%;
-}
+
 
