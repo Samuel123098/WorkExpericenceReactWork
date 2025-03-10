@@ -11,6 +11,7 @@ export default function MainMenu() {
               <h2>Subtitle</h2>
             </div>
             <div className="Rectangle-TopLeft"></div>
+            <div></div>
 
 
 
