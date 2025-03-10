@@ -25,3 +25,23 @@ h1 {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     opacity: 20%;
 }
+.Title{
+    margin-top: 1vw;
+    margin-left: 3vw;
+}
+.Title h1{
+    justify-content: center;
+}
+.Title h2{
+
+    transform: translate(7px,-20px);
+    justify-content: center;
+}
+.Rectangle-TopLeft{
+    justify-self: right;
+    position: fixed;
+    background-color: rgb(75, 43, 1);
+    height: 50px;
+    width: 20px;
+
+}
