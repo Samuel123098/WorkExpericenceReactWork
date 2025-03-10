@@ -39,7 +39,7 @@ h1 {
 }
 .Rectangle-TopLeft{
     justify-self: right;
-    position: fixed;
+    position: relative;
     background-color: rgb(75, 43, 1);
     height: 50px;
     width: 20px;

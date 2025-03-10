@@ -1,0 +1,90 @@
+
+:root{
+    --text-indent: 20px;
+    --Button-Color: #ffeca6;
+    --circle-size: 60%;
+}
+.Tile{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.Tile .Circle{
+    background-color: aqua;
+    width: 90%;
+    height: 49%;
+    border-radius: 100%;
+    justify-self: center;
+    transform: translateY(-90px);
+}
+
+.Tile .Square{
+    position: relative;
+    background-color: aquamarine;
+    width:100%;
+    height: 80%;
+    border-radius: 20px;
+    z-index: 999999;
+    transform: translateY(25%);
+
+
+}
+.Tile .Text{
+    pointer-events: none;
+}
+
+.Tile .Text h1{
+    z-index: 1;
+    transform: translate(var(--text-indent),calc(-120px + 2vw));
+    font-size: 3.5vw;
+}
+
+.Tile .Text h2{
+    z-index: 1;
+    transform: translate(var(--text-indent),-120px);
+    font-size: small;
+}
+
+.Tile .Text h3{
+    z-index: 1;
+    transform: translate(var(--text-indent), -120px);
+    font-size: small;
+}
+
+.Tile .HeartButton, .Tile .Basketbutton{
+    position: relative;
+    z-index: 99999999999999;
+    width: 5vw;
+    display: flex;
+    justify-self: right;
+    border-width: 0;
+}
+
+.Tile .HeartButton{
+
+    height: 5vw;
+    transform: translate(-10px ,calc(-215px + -2vw));
+    border-radius: 100%;
+
+}
+
+
+.Tile .Basketbutton{
+    height: 7vw;
+    transform: translate(-10px ,calc(-190px + -2vw));
+    border-radius: 10px;
+    
+}
+
+.Tile .HeartButton:hover, .Tile .Basketbutton:hover{
+    filter: brightness(80%);
+    cursor: pointer;
+    
+}
+
+.Tile .HeartButton:active, .Tile .Basketbutton:active{
+    filter: brightness(60%);
+}
+

@@ -1,19 +1,21 @@
-import "../CSS/TitleCard.css"
+import './TitleCard.css'
+export default function Tile(){
+    return(
+        <>
+        <div className="Tile">
 
-export default function TitleCard() {
-    return (
-      <>
-        <div className="TitleCard">
-            <div className="Circle" />
-            <div className="BackgroundSquare">
-                <h1 className="Title">ITEM</h1>
-                <h2 className="ItemDescription">ITEM DESCRIPTION</h2>
-                <h3 className="ItemPrice">ITEM PRICE</h3>
-
-                <button className="HeartButton"> </button>
-                <button className="ShoppingButton"> </button>
+            <div className="Square">
+            <div className="Circle"></div>
+                <div className="Text">
+                    <h1>title1</h1>
+                    <h2>Title Description</h2>
+                    <h3>Title Price</h3>
+                </div>
+                <button className="HeartButton" onClick={() => console.log("Whoops")}></button>
+                <button className="Basketbutton"></button>
             </div>
-          </div>
-      </>
+        </div>
+       
+        </>
     )
-  }
+}
