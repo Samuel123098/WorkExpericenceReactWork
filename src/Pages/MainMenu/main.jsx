@@ -62,15 +62,11 @@ export default function MainMenu() {
             <h2>Loren ipsum dolor sit smet, consectetur adipiscing elit. Maecenas dui purus, posuere id condimentum vitae, dapibus in</h2>
             </div>
             <div className="Line"></div>
+            <div className="Icon-Yay"></div>
             <div className="BioGraphic">
-              <div className="Icon-Yay">
-                <div className="IDk">
+
               <h1>Loren ipsum</h1>
               <h2>Loren ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dui purus, posuere id</h2>
-              </div>
-
-              </div>
-
             </div>
 
 

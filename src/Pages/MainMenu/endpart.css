@@ -30,33 +30,36 @@
 }
 
 .BioGraphic{
-    margin-top: 4vw;
 
-    height: 20vw;
+    height: 10vw;
     width: 90vw;
+
 }
 
 .Icon-Yay{
     position: relative;
-    justify-self: center;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: rgb(255, 255, 255);
     border-radius: 100%;
     height: 7vw;
     width: 7vw;
+    margin-top: 2vw;
 }
-.Icon-Yay h1, .Icon-Yay h2{
-    position: relative;
+.BioGraphic h1, .BioGraphic h2{
     justify-self: center;
     text-align: center;
-    height: 7vw;
     width: 90vw;
 
-}
-
-.Icon-Yay h1{    
-    padding-top: 7vw;
 
 }
-.Icon-Yay h2{    
-    padding-top: 4vw;
+
+.BioGraphic h1{    
+
+    font-size: 3vw;
+
+}
+.BioGraphic h2{ 
+    font-size: 2vw;   
+
 }
