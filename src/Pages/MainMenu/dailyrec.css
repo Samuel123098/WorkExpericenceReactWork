@@ -1,0 +1,40 @@
+
+
+
+
+
+.dlyrecomed {
+
+    width: 90vw;
+    height: 45vw;
+
+}
+
+.Text-DlyRec{
+
+    width: 45vw;
+    height: 40vw;
+    padding-top: 9vw;
+    padding-left: 5vw;
+}
+
+.Text-DlyRec h1{
+    font-size: 4vw;
+    font-weight: bold;
+
+}
+.Text-DlyRec h2{
+    font-size: 1.5vw;
+    font-weight: normal;
+}
+
+.Daily-Circle{
+    position: absolute;
+    background-color: blue;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 100%;
+    right: 0;
+    top: 40%;
+    margin-right: 2vw;
+}

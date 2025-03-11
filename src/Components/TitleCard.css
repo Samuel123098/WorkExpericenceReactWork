@@ -1,6 +1,6 @@
 
 :root{
-    --text-indent: 20px;
+    --text-indent: 0px;
     --Button-Color: #ffeca6;
     --circle-size: 60%;
 }
@@ -12,12 +12,15 @@
 }
 
 .Tile .Circle{
+    position: relative;
     background-color: aqua;
     width: 90%;
-    height: 49%;
+    height: 0;
+    padding-bottom: 90%;
     border-radius: 100%;
     justify-self: center;
-    transform: translateY(-90px);
+    transform: translateY(-8vw);
+    margin-bottom: 1vw;
 }
 
 .Tile .Square{
@@ -26,55 +29,67 @@
     width:100%;
     height: 80%;
     border-radius: 20px;
-    z-index: 999999;
     transform: translateY(25%);
-
-
 }
 .Tile .Text{
     pointer-events: none;
+    transform: translate(var(--text-indent),-10vw);
+    font-size: 100%;
+    width: 70%;
+    height: 60%;
+    margin-left: 1vw;
+
+
 }
 
 .Tile .Text h1{
-    z-index: 1;
-    transform: translate(var(--text-indent),calc(-120px + 2vw));
-    font-size: 3.5vw;
+    margin-top: 1vw;
+    font-size: 5cqw;
+    container-type: inline;
 }
 
 .Tile .Text h2{
-    z-index: 1;
-    transform: translate(var(--text-indent),-120px);
-    font-size: small;
+    font-size: 1.3cqw;
+    margin-top: -1.5vw;
+    
 }
 
 .Tile .Text h3{
-    z-index: 1;
-    transform: translate(var(--text-indent), -120px);
-    font-size: small;
+    font-size: 1.2cqw;
+    margin-top: 1.5vw;
+
+}
+
+.BttsTtleCrd{
+    position: absolute;
+
+    width: 25%;
+    justify-self: right;
+    top: 0;
+    right: 0;
+    margin-top: 10vw;
+    margin-right: 1vw;
 }
 
 .Tile .HeartButton, .Tile .Basketbutton{
     position: relative;
-    z-index: 99999999999999;
     width: 5vw;
     display: flex;
-    justify-self: right;
     border-width: 0;
 }
 
 .Tile .HeartButton{
 
     height: 5vw;
-    transform: translate(-10px ,calc(-215px + -2vw));
     border-radius: 100%;
 
 }
 
 
 .Tile .Basketbutton{
-    height: 7vw;
-    transform: translate(-10px ,calc(-190px + -2vw));
+    height: 8vw;
     border-radius: 10px;
+    margin-top: 2vw;
     
 }
 

@@ -1,0 +1,62 @@
+:root{
+    --all-Margin-Left: 4.5vw;
+}
+
+
+.Header-Bottom{
+
+    height: 50vw;
+}
+
+.Text-Header-Bottom{
+    margin-left: var(--all-Margin-Left);
+    padding-top: 5vw;
+}
+
+.Line{
+    margin-left: var(--all-Margin-Left);
+    width: 80vw;
+    height: 1px;
+    background-color: black;
+    margin-top: 1vw;
+}
+
+.Box-Text-Header-Bottom{
+    margin-top: 0.5vw;
+    margin-left: var(--all-Margin-Left);
+    width: 62vw;
+    font-size: 1.3vw;
+    font-weight: normal;
+}
+
+.BioGraphic{
+    margin-top: 4vw;
+
+    height: 20vw;
+    width: 90vw;
+}
+
+.Icon-Yay{
+    position: relative;
+    justify-self: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    height: 7vw;
+    width: 7vw;
+}
+.Icon-Yay h1, .Icon-Yay h2{
+    position: relative;
+    justify-self: center;
+    text-align: center;
+    height: 7vw;
+    width: 90vw;
+
+}
+
+.Icon-Yay h1{    
+    padding-top: 7vw;
+
+}
+.Icon-Yay h2{    
+    padding-top: 4vw;
+}

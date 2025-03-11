@@ -1,0 +1,43 @@
+.Most-Popular{
+    width: 90vw;
+    height: 40vw;;
+}
+
+.TitleCardGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 45vw;
+    margin-left: var(--all-Margin-Left);
+    margin-right: 0;
+
+
+}
+.TitleCardSize{
+    padding: 5vw;
+    padding-left: 0;
+    padding-right: 0;
+    width: 20vw;
+    height: 40vw;
+}
+.Text-MostPopular{
+    position: absolute;
+    height: 20vw;
+    width: 36vw;
+    right: 0;
+    top: 24%;
+    margin-top: 9vw;
+    margin-right: 3.5vw;
+}
+.Text-MostPopular h1{
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: black;
+    line-height: 1.25;
+}
+.Text-MostPopular h2{
+    font-size: 1.5vw;
+    font-weight: normal;
+    color: black;
+    line-height: 1.25;
+    margin-top: 1vw;
+}

@@ -11,8 +11,10 @@ export default function Tile(){
                     <h2>Title Description</h2>
                     <h3>Title Price</h3>
                 </div>
+                <div className='BttsTtleCrd'>
                 <button className="HeartButton" onClick={() => console.log("Whoops")}></button>
                 <button className="Basketbutton"></button>
+                </div>
             </div>
         </div>
        

@@ -1,0 +1,94 @@
+:root{
+    --all-Margin-Left: 4.5vw;
+}
+
+
+.MainSection{
+    height: 55vw;
+
+}
+
+.Title{
+    margin-top: 1vw;
+    width: 20vw;
+    height: 7vw;
+    margin-left: var(--all-Margin-Left);
+}
+.Title h1{
+    font-size: 3.2cqw;
+    justify-content: center;
+    color: black;
+    margin-bottom: -1vw;
+}
+.Title h2{
+    font-size: 2vw;
+    justify-content: center;
+    color: black;
+}
+
+.Rectangle-TopRight{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2vw;
+    background-color: rgb(207, 207, 207);
+    height: 4.5vw;
+    width: 3.5vw;
+    border-radius: 10px;
+}
+.Circle-MainFood{
+    position: absolute;
+    background-color: rgb(114, 102, 87);
+    height: 40vw;
+    width: 40vw;
+    border-radius: 100%;
+    top: 0;
+    right: 0;
+    margin-top: 4vw;
+    margin-right: 4vw;
+
+}
+
+.Text-MainFood{
+    height: 20vw;
+    width: 40vw;
+    font-size: 5vw;
+    font-weight: bold;
+    color: black;
+    line-height: 1.25;
+    margin-left: var(--all-Margin-Left);
+    margin-top: 5vw;
+
+}
+
+.ViewMenu{
+
+    text-align: left;
+    height: 5vw;
+    width: 25vw;
+
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 2vw;
+    margin-left: var(--all-Margin-Left);
+}
+
+.ViewMenu .TextViewMenu{
+
+    font-size: 3vw;
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+
+.Button-Box{
+
+    text-align: left;
+    height: 5vw;
+    width: 25vw;
+
+
+    background-color: #000000aa;
+    border-radius: 20px;
+    margin-top: 3vw;
+    margin-left: var(--all-Margin-Left);
+}
