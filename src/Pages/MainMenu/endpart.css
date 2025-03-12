@@ -5,13 +5,20 @@
 
 .Header-Bottom{
 
-    height: 50vw;
+    height: 44vw;
 }
 
 .Text-Header-Bottom{
     margin-left: var(--all-Margin-Left);
     padding-top: 5vw;
 }
+.Text-Header-Bottom p{
+    font-size: 2vw;
+}
+.Text-Header-Bottom h1{
+    font-size: 4vw;
+}
+
 
 .Line{
     margin-left: var(--all-Margin-Left);
@@ -28,6 +35,7 @@
     font-size: 1.3vw;
     font-weight: normal;
 }
+
 
 .BioGraphic{
 

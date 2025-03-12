@@ -13,17 +13,20 @@
     width: 20vw;
     height: 7vw;
     margin-left: var(--all-Margin-Left);
+    
 }
 .Title h1{
+
     font-size: 3.2cqw;
     justify-content: center;
     color: black;
-    margin-bottom: -1vw;
+
 }
 .Title h2{
     font-size: 2vw;
     justify-content: center;
     color: black;
+   
 }
 
 .Rectangle-TopRight{
@@ -66,29 +69,38 @@
     text-align: left;
     height: 5vw;
     width: 25vw;
-
     color: rgb(255, 255, 255);
     background-color: black;
     border-radius: 2vw;
     margin-left: var(--all-Margin-Left);
 }
 
-.ViewMenu .TextViewMenu{
+.TextViewMenu{
 
-    font-size: 3vw;
     font-size: 2vw;
     margin-left: 1vw;
+    margin-top: 1vw;
+
 }
 
-.Button-Box{
+.Fav-Button{
 
     text-align: left;
     height: 5vw;
     width: 25vw;
-
-
-    background-color: #000000aa;
+    background-color: #ffa4a4aa;
     border-radius: 20px;
-    margin-top: 3vw;
+    margin-top: -1vw;
     margin-left: var(--all-Margin-Left);
+}
+
+.Heart, .Arrow{
+    position: relative;
+    justify-self: right;
+    font-size: 3.5vw;
+    top: 0%;
+    transform: translateY(-65%);
+    margin-right: 2vw;
+
+
 }

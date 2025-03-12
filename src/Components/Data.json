@@ -1,0 +1,123 @@
+{
+    "Card1": {
+      "Title": "Oatmeal Pancakes",
+      "Description": "Fluffy pancakes made with oats for a healthy breakfast.",
+      "Price": "5$",
+      "Image": "/oatmeal-pancakes.jpg"
+    },
+    "Card2": {
+      "Title": "Avocado Toast",
+      "Description": "Crispy toast topped with mashed avocado and a sprinkle of sea salt.",
+      "Price": "4$",
+      "Image": "/avocado-toast.jpg"
+    },
+    "Card3": {
+      "Title": "Grilled Cheese Sandwich",
+      "Description": "A classic grilled cheese sandwich with gooey melted cheese.",
+      "Price": "3$",
+      "Image": "/grilled-cheese.jpg"
+    },
+    "Card4": {
+      "Title": "Caesar Salad",
+      "Description": "A fresh salad with romaine lettuce, croutons, and creamy Caesar dressing.",
+      "Price": "6$",
+      "Image": "/caesar-salad.jpg"
+    },
+    "Card5": {
+      "Title": "Spaghetti Carbonara",
+      "Description": "Spaghetti with a creamy egg-based sauce, pancetta, and parmesan.",
+      "Price": "8$",
+      "Image": "/spaghetti-carbonara.jpg"
+    },
+    "Card6": {
+      "Title": "Margherita Pizza",
+      "Description": "A classic pizza with fresh mozzarella, tomatoes, and basil.",
+      "Price": "10$",
+      "Image": "/margherita-pizza.jpg"
+    },
+    "Card7": {
+      "Title": "Cheese Burger",
+      "Description": "A juicy beef patty with melted cheese, lettuce, tomato, and pickles.",
+      "Price": "7$",
+      "Image": "/cheeseburger.jpg"
+    },
+    "Card8": {
+      "Title": "Sushi Rolls",
+      "Description": "Fresh sushi rolls with a variety of fish and vegetables.",
+      "Price": "12$",
+      "Image": "/sushi-rolls.jpg"
+    },
+    "Card9": {
+      "Title": "Chocolate Cake",
+      "Description": "Rich and moist chocolate cake topped with smooth chocolate frosting.",
+      "Price": "4$",
+      "Image": "/chocolate-cake.jpg"
+    },
+    "Card10": {
+      "Title": "Chicken Tacos",
+      "Description": "Soft corn tortillas filled with seasoned chicken, topped with salsa.",
+      "Price": "5$",
+      "Image": "/chicken-tacos.jpg"
+    },
+    "Card11": {
+      "Title": "Vegetable Stir-fry",
+      "Description": "A mix of fresh vegetables stir-fried in a savory sauce, served with rice.",
+      "Price": "7$",
+      "Image": "/vegetable-stirfry.jpg"
+    },
+    "Card12": {
+      "Title": "Fish and Chips",
+      "Description": "Crispy battered fish served with golden fries.",
+      "Price": "9$",
+      "Image": "/fish-and-chips.jpg"
+    },
+    "Card13": {
+      "Title": "Pasta Primavera",
+      "Description": "Pasta with fresh vegetables in a light, garlic-infused olive oil sauce.",
+      "Price": "8$",
+      "Image": "/pasta-primavera.jpg"
+    },
+    "Card14": {
+      "Title": "Chicken Alfredo",
+      "Description": "Creamy Alfredo pasta with grilled chicken and parmesan cheese.",
+      "Price": "10$",
+      "Image": "/chicken-alfredo.jpg"
+    },
+    "Card15": {
+      "Title": "Peking Duck",
+      "Description": "Crispy duck served with pancakes and hoisin sauce.",
+      "Price": "15$",
+      "Image": "/peking-duck.jpg"
+    },
+    "Card16": {
+      "Title": "Beef Burritos",
+      "Description": "Warm flour tortillas filled with seasoned beef, beans, and cheese.",
+      "Price": "6$",
+      "Image": "/beef-burritos.jpg"
+    },
+    "Card17": {
+      "Title": "Eggplant Parmesan",
+      "Description": "Breaded and fried eggplant slices topped with marinara sauce and mozzarella.",
+      "Price": "8$",
+      "Image": "/eggplant-parmesan.jpg"
+    },
+    "Card18": {
+      "Title": "Mushroom Risotto",
+      "Description": "A creamy rice dish with mushrooms and a touch of parmesan.",
+      "Price": "9$",
+      "Image": "/mushroom-risotto.jpg"
+    },
+    "Card19": {
+      "Title": "Pulled Pork Sandwich",
+      "Description": "Slow-cooked pulled pork topped with coleslaw on a soft bun.",
+      "Price": "7$",
+      "Image": "/pulled-pork-sandwich.jpg"
+    },
+    "Card20": {
+      "Title": "Lobster Roll",
+      "Description": "Fresh lobster meat served in a buttery roll with a side of fries.",
+      "Price": "18$",
+      "Image": "/lobster-roll.jpg"
+    }
+  }
+  

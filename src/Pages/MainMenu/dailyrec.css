@@ -7,6 +7,8 @@
 
     width: 90vw;
     height: 45vw;
+    margin-top: 7vw;
+
 
 }
 
@@ -30,11 +32,11 @@
 
 .Daily-Circle{
     position: absolute;
-    background-color: blue;
+    background-color: rgb(212, 212, 212);
     width: 40vw;
     height: 40vw;
     border-radius: 100%;
     right: 0;
-    top: 40%;
+    top: 43%;
     margin-right: 2vw;
 }

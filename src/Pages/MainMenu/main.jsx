@@ -3,6 +3,8 @@ import "./topsection.css"
 import "./mostpopular.css"
 import "./dailyrec.css"
 import "./endpart.css"
+import { FaRegHeart } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa";
 import TitleCard from "../../Components/TitleCard.jsx"
 import KeenScroller from "../../Components/Scroller.jsx"
 
@@ -11,8 +13,6 @@ export default function MainMenu() {
       <>
       <div className="parent">
         <div className="SecondaryBackGround">
-
-
           <div className="MainSection">
                   <div className="Title">
                       <h1>Title</h1>
@@ -23,12 +23,17 @@ export default function MainMenu() {
                 <div className="Rectangle-TopRight"></div>
                 <div className="Circle-MainFood"></div>
                
-
+          <div className="Menu-Button">
            <button className="ViewMenu">
              <div className="TextViewMenu">View Menu</div>
-             <div className="Arrow"></div>
+             <div className="Arrow"><FaArrowRight /></div>
             </button>
-             <div className="Button-Box"></div>
+            </div>
+
+             <button className="Fav-Button">
+             <div className="TextViewMenu" >Favorites</div>
+             <div className="Heart"><FaRegHeart /></div>
+             </button>
           </div>
         
         <div className="Most-Popular">

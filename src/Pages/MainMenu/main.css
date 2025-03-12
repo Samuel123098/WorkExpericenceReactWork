@@ -1,23 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-
+html{
+    background-color: #D8B9A0;
+}
 
 * {
     font-family: 'Inter', sans-serif;
 }
 
 /* Makes the background color and middle box */
-.parent {
-    padding-bottom: 100px;
-    height: calc(143vw*1.75);
-}
+
 .SecondaryBackGround { 
-    position: absolute;
-    margin-top: 5vw;
+    position: relative;
+    margin-top: 3vw;
     left: 50%;
     transform: translateX(-50%);
     width: 90vw;
-    height: calc(140vw*1.7);
+    height: 100%;
+    margin-bottom: 5vw;
+
 }
 /*Styling the box*/
 .parent{

@@ -60,6 +60,8 @@ const WheelControls = (slider) => {
 }
 
 export default function KeenScroller() {
+
+
   const [sliderRef] = useKeenSlider(
     {
       loop: true,
@@ -74,19 +76,34 @@ export default function KeenScroller() {
     [WheelControls]
   )
 
+  let Used_Cards = [];
+
+  function getRandomCard() {
+    while (true) {
+      let num = Math.floor(Math.random() * 21);  
+      console.log(Used_Cards);  // For debugging purposes
+      console.log(num);  // For debugging purposes
+  
+
+      if (!Used_Cards.includes(num)) {
+        Used_Cards.push(num);  
+        return "Card" + num;  
+      }
+    }
+  }
+
   return (
     <div className="BackgroundSquare">
         <div className="ScrollSquare">
             <div ref={sliderRef} className="keen-slider" >
-                <div className="keen-slider__slide "><Tile /> </div>
-                <div className="keen-slider__slide "><Tile /></div>
-                <div className="keen-slider__slide "><Tile /></div>
-                <div className="keen-slider__slide "><Tile /></div>
-                <div className="keen-slider__slide "><Tile /></div>
-                <div className="keen-slider__slide "><Tile /></div>
+                <div className="keen-slider__slide "><Tile TiCardNum={getRandomCard()} /></div>
+                <div className="keen-slider__slide "><Tile TiCardNum={getRandomCard()}/></div>
+                <div className="keen-slider__slide "><Tile TiCardNum={getRandomCard()}/></div>
+                <div className="keen-slider__slide "><Tile TiCardNum={getRandomCard()}/></div>
+                <div className="keen-slider__slide "><Tile TiCardNum={getRandomCard()}/></div>
+                <div className="keen-slider__slide "><Tile TiCardNum={getRandomCard()}/></div>
             </div>
         </div>
-
     </div>
 
   )
