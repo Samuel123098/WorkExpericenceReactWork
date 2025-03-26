@@ -2,8 +2,10 @@ import './TitleCard.css'
 import data from './Data.json'
 import { FaRegHeart } from 'react-icons/fa6';
 import { MdOutlineShoppingCart } from "react-icons/md";
+import FavoriteStore from './FavStore.jsx';
 
 export default function Tile({TiCardNum}){
+
     const TitleName = data[TiCardNum]?.Title || "404";
     const Description = data[TiCardNum]?.Description || "404";
     const Price = data[TiCardNum]?.Price || "404";
@@ -12,7 +14,7 @@ export default function Tile({TiCardNum}){
     return(
         <>
         <div className="Tile">
-
+        
             <div className="Square">
             <div className='Circle-Height'>
             <img className="Circle" src={ImageLocation}  onError={(e) => { e.target.onerror = null; e.target.src ="/404.png"; }} ></img>
@@ -23,7 +25,7 @@ export default function Tile({TiCardNum}){
                     <h3>{Price}</h3>
                 </div>
                 <div className='BttsTtleCrd'>
-                <button className="HeartButton" onClick={() => console.log("Whoops")}>
+                <button className="HeartButton" onClick={() => FavoriteStore(TiCardNum)}> 
                     <div className='Icon'><FaRegHeart/></div>
                 </button>
                 <button className="Basketbutton">

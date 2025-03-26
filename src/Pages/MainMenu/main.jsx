@@ -7,42 +7,54 @@ import { FaRegHeart } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
 import TitleCard from "../../Components/TitleCard.jsx"
 import KeenScroller from "../../Components/Scroller.jsx"
+import data from "../../Components/Data.json"
+import { MdOutlineShoppingCart } from "react-icons/md";
 
 export default function MainMenu() {
+  const TopImageLocation = data["Card8"]?.Image || "/404.png";
+  const RecomendedLocation = data["Card19"]?.Image || "/404.png";
+
     return (
       <>
       <div className="parent">
         <div className="SecondaryBackGround">
           <div className="MainSection">
                   <div className="Title">
-                      <h1>Title</h1>
-                        <h2>Subtitle</h2>
+                      <h1>My Food Menu!</h1>
+                        <h2>!!Concept!!</h2>
                   </div>
-                  <div className="Text-MainFood">Lorem ipsum dolor sit amet, consectetur</div>
+                  <div className="Text-MainFood">Welcome To My Food Website! By Sam</div>
                 
-                <div className="Rectangle-TopRight"></div>
-                <div className="Circle-MainFood"></div>
-               
+                <div className="Rectangle-TopRight">
+                   <div className='Icon'><MdOutlineShoppingCart /></div>
+                </div>
+                <img className="Circle-MainFood" src={TopImageLocation}></img>
+ 
           <div className="Menu-Button">
+          <a href="/FoodMenu">  
            <button className="ViewMenu">
              <div className="TextViewMenu">View Menu</div>
              <div className="Arrow"><FaArrowRight /></div>
             </button>
+            </a>
             </div>
 
+
+            <a href="/Favorites">
              <button className="Fav-Button">
              <div className="TextViewMenu" >Favorites</div>
              <div className="Heart"><FaRegHeart /></div>
              </button>
+             </a>
           </div>
         
         <div className="Most-Popular">
           <div className="TitleCardGrid">
-          <div className="TitleCardSize"><TitleCard/></div>
-          <div className="TitleCardSize"><TitleCard/></div>
+          <div className="TitleCardSize"><TitleCard TiCardNum={"Card11"}/></div>
+          <div className="TitleCardSize"><TitleCard TiCardNum={"Card9"}/></div>
           </div>
           <div className="Text-MostPopular">
-            <h1>Loren ipsum dolor sit amet consectetur</h1>
+            <h1>Most Viewed of The week!</h1>
             <h2>Curabit fermentum, lerem et finibus bibendum, dolor nulla consequat neque, in fermentum erat orci eu tortor. maecenas sed quam mi. Donec sed sollicitudin lacus, at tristique nuc. Fusce tristique turpis magna, in bibendum quam egestas sit amet. Cras sit amet porttitor lectus.</h2>
           </div>
         </div>
@@ -52,8 +64,8 @@ export default function MainMenu() {
             <h1>Daily Recommendation</h1>
             <h2>Curabit fermentum, lerem et finibus bibendum, dolor nulla consequat neque, in fermentum erat orci eu tortor. maecenas sed quam mi. Donec sed sollicitudin lacus, at tristique nuc. Fusce tristique turpis magna, in bibendum quam egestas sit amet. Cras sit amet porttitor lectus.</h2>
           </div>
-          <div className="Daily-Circle">
-          </div>
+          <img className="Daily-Circle" src={RecomendedLocation}/>
+
         </div>
           <KeenScroller/>
 

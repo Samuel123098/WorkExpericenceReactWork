@@ -11,7 +11,8 @@ body {
 }
   
 .BackgroundSquare{
-    background-color: rgb(255, 252, 194);
+    background-color: #e6d3b3;
+
     width: 80vw;
     height: 45vw;
     margin: auto;

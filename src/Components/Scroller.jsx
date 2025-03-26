@@ -76,15 +76,11 @@ export default function KeenScroller() {
     [WheelControls]
   )
 
-  let Used_Cards = [];
+  let Used_Cards = [0];
 
   function getRandomCard() {
     while (true) {
-      let num = Math.floor(Math.random() * 21);  
-      console.log(Used_Cards);  // For debugging purposes
-      console.log(num);  // For debugging purposes
-  
-
+      let num = Math.floor(Math.random() * 21); 
       if (!Used_Cards.includes(num)) {
         Used_Cards.push(num);  
         return "Card" + num;  

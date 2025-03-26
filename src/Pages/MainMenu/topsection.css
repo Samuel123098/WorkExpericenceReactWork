@@ -10,22 +10,30 @@
 
 .Title{
     margin-top: 1vw;
-    width: 20vw;
+
     height: 7vw;
     margin-left: var(--all-Margin-Left);
+    display: flex; /* Add flexbox */
+    flex-direction: column; /* Stack h1 and h2 vertically */
+
     
 }
 .Title h1{
+    padding-top: 20px;
+    font-size: 3cqw;
 
-    font-size: 3.2cqw;
-    justify-content: center;
     color: black;
-
+    align-items: center; /* Center align h1 and h2 horizontally */
+    justify-content: center; /
 }
 .Title h2{
+
     font-size: 2vw;
-    justify-content: center;
-    color: black;
+    color: rgb(15, 15, 15);
+    opacity: 0.4;
+    margin: 0;
+    margin-left: 5.5vw;
+    margin-top: -1.3vw;
    
 }
 
@@ -39,8 +47,14 @@
     width: 3.5vw;
     border-radius: 10px;
 }
+.Rectangle-TopRight .Icon{
+    font-size: 2.5vw;
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+}
 .Circle-MainFood{
     position: absolute;
+    background: src();
     background-color: rgb(114, 102, 87);
     height: 40vw;
     width: 40vw;
@@ -89,7 +103,7 @@
     height: 5vw;
     width: 25vw;
     background-color: #ffa4a4aa;
-    border-radius: 20px;
+    border-radius: 2vw;
     margin-top: -1vw;
     margin-left: var(--all-Margin-Left);
 }
@@ -97,6 +111,7 @@
 .Heart, .Arrow{
     position: relative;
     justify-self: right;
+    text-align: right;
     font-size: 3.5vw;
     top: 0%;
     transform: translateY(-65%);

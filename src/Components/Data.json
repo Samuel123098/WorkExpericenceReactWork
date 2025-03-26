@@ -9,7 +9,7 @@
       "Title": "Avocado Toast",
       "Description": "Crispy toast topped with mashed avocado and a sprinkle of sea salt.",
       "Price": "4$",
-      "Image": "/avocado-toast.jpg"
+      "Image": "/avocado-toast.jpeg"
     },
     "Card3": {
       "Title": "Grilled Cheese Sandwich",
@@ -21,19 +21,19 @@
       "Title": "Caesar Salad",
       "Description": "A fresh salad with romaine lettuce, croutons, and creamy Caesar dressing.",
       "Price": "6$",
-      "Image": "/caesar-salad.jpg"
+      "Image": "/caesar-salad.jpeg"
     },
     "Card5": {
       "Title": "Spaghetti Carbonara",
       "Description": "Spaghetti with a creamy egg-based sauce, pancetta, and parmesan.",
       "Price": "8$",
-      "Image": "/spaghetti-carbonara.jpg"
+      "Image": "/spaghetti-carbonara.webp"
     },
     "Card6": {
       "Title": "Margherita Pizza",
       "Description": "A classic pizza with fresh mozzarella, tomatoes, and basil.",
       "Price": "10$",
-      "Image": "/margherita-pizza.jpg"
+      "Image": "/margherita-pizza.jpeg"
     },
     "Card7": {
       "Title": "Cheese Burger",
@@ -45,7 +45,7 @@
       "Title": "Sushi Rolls",
       "Description": "Fresh sushi rolls with a variety of fish and vegetables.",
       "Price": "12$",
-      "Image": "/sushi-rolls.jpg"
+      "Image": "/sushi-rolls.webp"
     },
     "Card9": {
       "Title": "Chocolate Cake",
@@ -57,19 +57,19 @@
       "Title": "Chicken Tacos",
       "Description": "Soft corn tortillas filled with seasoned chicken, topped with salsa.",
       "Price": "5$",
-      "Image": "/chicken-tacos.jpg"
+      "Image": "/chicken-tacos.jpeg"
     },
     "Card11": {
       "Title": "Vegetable Stir-fry",
       "Description": "A mix of fresh vegetables stir-fried in a savory sauce, served with rice.",
       "Price": "7$",
-      "Image": "/vegetable-stirfry.jpg"
+      "Image": "/vegetable-stirfry.jpeg"
     },
     "Card12": {
       "Title": "Fish and Chips",
       "Description": "Crispy battered fish served with golden fries.",
       "Price": "9$",
-      "Image": "/fish-and-chips.jpg"
+      "Image": "/fish-and-chips.webp"
     },
     "Card13": {
       "Title": "Pasta Primavera",
@@ -81,19 +81,19 @@
       "Title": "Chicken Alfredo",
       "Description": "Creamy Alfredo pasta with grilled chicken and parmesan cheese.",
       "Price": "10$",
-      "Image": "/chicken-alfredo.jpg"
+      "Image": "/chicken-alfredo.jpeg"
     },
     "Card15": {
       "Title": "Peking Duck",
       "Description": "Crispy duck served with pancakes and hoisin sauce.",
       "Price": "15$",
-      "Image": "/peking-duck.jpg"
+      "Image": "/peking-duck.webp"
     },
     "Card16": {
       "Title": "Beef Burritos",
       "Description": "Warm flour tortillas filled with seasoned beef, beans, and cheese.",
       "Price": "6$",
-      "Image": "/beef-burritos.jpg"
+      "Image": "/beef-burritos.jpeg"
     },
     "Card17": {
       "Title": "Eggplant Parmesan",
@@ -117,7 +117,7 @@
       "Title": "Lobster Roll",
       "Description": "Fresh lobster meat served in a buttery roll with a side of fries.",
       "Price": "18$",
-      "Image": "/lobster-roll.jpg"
+      "Image": "/lobster-roll.jpeg"
     }
   }
   
