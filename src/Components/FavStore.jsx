@@ -1,12 +1,10 @@
 
 export default function FavStore(cardID) {
-    const match = cardID.match(/\d+/); 
-
-    cardID = match ? parseInt(match[0], 10) : null;
     const retrievedIDs = [];
     for (let i = 0; i < 5; i++) {
         retrievedIDs.push(parseInt(localStorage.getItem(`CardID${i}`), 10));
     }
+
     if (retrievedIDs.includes(cardID)) {
     const index = retrievedIDs.indexOf(cardID);
         if (index !== -1) {

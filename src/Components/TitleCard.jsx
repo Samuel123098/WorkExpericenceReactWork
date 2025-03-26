@@ -1,6 +1,7 @@
 import './TitleCard.css'
 import data from './Data.json'
 import { FaRegHeart } from 'react-icons/fa6';
+import { FaHeart } from 'react-icons/fa6';
 import { MdOutlineShoppingCart } from "react-icons/md";
 import FavoriteStore from './FavStore.jsx';
 
@@ -10,6 +11,18 @@ export default function Tile({TiCardNum}){
     const Description = data[TiCardNum]?.Description || "404";
     const Price = data[TiCardNum]?.Price || "404";
     const ImageLocation = data[TiCardNum]?.Image || "/404.png";
+
+    const match = TiCardNum.match(/\d+/); 
+    TiCardNum = match ? parseInt(match[0], 10) : null;
+
+    const retrievedIDs = [];
+    for (let i = 0; i < 5; i++) {
+        retrievedIDs.push(parseInt(localStorage.getItem(`CardID${i}`), 10));
+    }
+
+    if (retrievedIDs.includes(TiCardNum)){
+        var Favorite = true;
+    }
 
     return(
         <>
@@ -26,7 +39,8 @@ export default function Tile({TiCardNum}){
                 </div>
                 <div className='BttsTtleCrd'>
                 <button className="HeartButton" onClick={() => FavoriteStore(TiCardNum)}> 
-                    <div className='Icon'><FaRegHeart/></div>
+                <div className='Icon'>{Favorite ? <FaHeart style={{ color: "#aa5565"}} /> : <FaRegHeart />}</div>
+                
                 </button>
                 <button className="Basketbutton">
                     <div className='Icon'><MdOutlineShoppingCart /></div>
